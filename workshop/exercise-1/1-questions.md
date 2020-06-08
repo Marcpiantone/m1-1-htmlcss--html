@@ -30,6 +30,10 @@ As would Google index and rank our website based on the quality of the HTML writ
 
 a) You want to create a webpage with the photos from your latest vacation
 <html>
+<body>
+
+<h1>Latest vacation</h1>
+<p>Look at my pictures</p>
     <img
   src="https://vacation.com/images/anywhere-sunset.png"
   alt="Sunset from my last trip"
@@ -38,23 +42,40 @@ a) You want to create a webpage with the photos from your latest vacation
   src="https://vacation.com/images/anywhere-sunset2.png"
   alt="Another sunset from my last trip"
 />
+</body>
+</html>
 
 b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+<html>
+<body>
+
+<h1>Art galleries in Montreal</h1>
+<p>Here is my list</p>
 <ul>
     <li>Art Gallery 1<a href="http://artgallery1"></a>
     <li>Art Gallery 2<a href="http://artgallery2"></a>
+</ul>
+
+</body>
+</html>
 
 c) You want to sell designer hats. You need to receive orders from the user.
+<html>
+<body>
 
- <label>Item :</label>
+<h1>Best designer hats</h1>
+ <label>Item you'd like to order :</label>
   <input type="text">
+
+</body>
+</html>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 A button can't be a child of a button (could there be a clickable button embedded in another clickable button - doesn't make much sense to me).
 
 
 ## Q5 - What is the most generic tag you can use?
-<div/> seems to be the answer
+<div> seems to be the answer </div>
 
 ## Q6 - What do the following achronyms stand for?
 
@@ -96,4 +117,4 @@ An alt description (alt=) for when the image is missing or a screenreader is use
 
 ## Q13 - Which attribute is always present for an anchor tag?
 
-The href= attribute that allow to specify the URL of the website you want to show a link to in your webpage.
+The URL (href=) attribute that allow to specify the URL of the website you want to show a link to in your webpage.
