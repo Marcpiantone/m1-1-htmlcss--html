@@ -4,21 +4,42 @@
   <body>
 <h1>Registration form</h1>
 
-<p>Username <input type="text"> Password <input type="password"> <br>
-Email <input type="text" name="" id=""> <br> </p>
 
-<p>Which car do you desire ?<br>
-  <input type="radio" name="taxi">Car <br>
-  <input type="radio" name="taxi">Van <br>
-  <input type="radio" name="taxi">Tuk tuk <br>
+<form>
+<p>Username <input type="text" required> Password <input type="password" required><br>
+Email <input type="text" name="" id=""required></p>
+
+<p>Which car do you desire ?
+    <div><input type="radio" name="taxi"required>Car</div>
+    <div><input type="radio" name="taxi"required>Van</div>
+    <div><input type="radio" name="taxi"required>Tuk tuk</div>
 </p>
 
-<p>Extras<br>
-<input type="checkbox" name="extras">Baby Seat <br>
-<input type="checkbox" name="extras">Wheelchair <br>
-<input type="checkbox" name="extras">Stocktip <br>
+<p>Extras
+    <div><input type="checkbox" name="extras">Baby Seat</div>
+    <div><input type="checkbox" name="extras">Wheelchair</div>
+    <div><input type="checkbox" name="extras">Stocktip</div>
 </p>
 
-<p>Pickup <input type="select" name="" id=""></p>
+<p>Pickup <select>
+    <option value="">Select one</option>
+    <option value="Town Office">Town office</option>
+    <option value="Town Hall">Town Hall</option>
+    <option value="We'll guess">We'll guess</option>
+    </select>
+</p>
+
+<p>Special
+    <label>
+        <textarea name="Special" id="Special" cols="30" rows="10"></textarea>
+    </label>
+</p>
+
+<p><button>Submit</button>
+
+
+</p>
+
+</form>
   </body>
 </html>
